@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link rel="stylesheet" href="css/reset.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>intys</title>
 </head>
 
 <body>
@@ -15,22 +17,20 @@
     </header>
     <main class="wrapper">
         <div class="navigation-container" id="navigation-container">
-            <div class="arrow clearfix" id="arrow"></div>
-            <img src="img/intys_logo01_white.png" class="logo clearfix" id="logo"></img>
-            <div class="arrow-is-opened dis-arrow clearfix" id="arrow-is-opened"></div>
-            
+            <div class="arrow" id="arrow"></div>
+            <img src="img/intys_logo01_white.png" class="logo" id="logo"></img>
+            <div class="arrow-is-opened dis-arrow" id="arrow-is-opened"></div>
+
             <div class="dis-menu-list menu-list" id="menu-list">
                 <ul>
-                    <li><a href="#1">About</a></li>
-                    <li><a href="#1">Member</a></li>
-                    <li><a href="#1">Blog</a></li>
-                    <li><a href="#1">Contact</a></li>
-                    
-
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#member">Member</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-            
-            
+
+
             <div class="menu" id="menu">
                 <span class="menu-line line01"></span>
                 <span class="menu-line line02"></span>
@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="content-wrapper">
-            <section class="about">
+            <section class="about" id="about">
                 <div class="section-title title-about">
                     <h1>About</h1>
                 </div>
@@ -62,7 +62,7 @@
             </section>
 
 
-            <section class="member">
+            <section class="member" id="member">
                 <div class="section-title title-member">
                     <h1>Member</h1>
                 </div>
@@ -91,27 +91,29 @@
 
             </section>
 
-            <section class="blog">
+            <section class="blog" id="blog">
                 <div class="section-title title-blog">
                     <h1>Blog</h1>
                 </div>
-                <div class="blog-left">
-                    <div class="blog-img"></div>
-                    <p class="blog-data">2020.0322</p>
-                    <p class="blog-title">タイトルタイトルタイトル</p>
-                </div>
-                <div class="blog-middle">
-                    <div class="blog-img"></div>
-                    <p class="blog-data">2020.0322</p>
-                    <p class="blog-title">タイトルタイトルタイトル</p>
-                </div>
-                <div class="blog-right">
-                    <div class="blog-img"></div>
-                    <p class="blog-data">2020.0322</p>
-                    <p class="blog-title">タイトルタイトルタイトル</p>
-                </div>
-                <div class="btn">
-                    <a href="#" role="button">More</a>
+                <div class="blog-container">
+                    <div class="blog-left">
+                        <div class="blog-img"></div>
+                        <p class="blog-data">2020.0322</p>
+                        <p class="blog-title">タイトルタイトルタイトル</p>
+                    </div>
+                    <div class="blog-middle">
+                        <div class="blog-img"></div>
+                        <p class="blog-data">2020.0322</p>
+                        <p class="blog-title">タイトルタイトルタイトル</p>
+                    </div>
+                    <div class="blog-right">
+                        <div class="blog-img"></div>
+                        <p class="blog-data">2020.0322</p>
+                        <p class="blog-title">タイトルタイトルタイトル</p>
+                    </div>
+                    <div class="btn">
+                        <a href="#" role="button">More</a>
+                    </div>
                 </div>
             </section>
 
@@ -163,5 +165,6 @@
     </footer>
 </body>
 <script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/smothScroll.js"></script>
 
 </html>

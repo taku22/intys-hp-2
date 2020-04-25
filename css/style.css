@@ -1121,56 +1121,134 @@ li {
 
     /*about以下*/
     .content-wrapper {
-        width: 320px;
+        width: 420px;
+        margin: 0 calc( (100vw - 420px) / 2);
         height: 1405px;
     }
 
     .section-title h1 {
-        font-size: 1.99rem;
+        font-size: 2.8rem;
         font-family: "PaneuropaRetroSoft-DemiBold";
     }
 
     .about {
-        width: 100%;
-        height: 450px;
+        width: 100vw;
+        height: 600px;
+        margin: 0 auto;
         z-index: 2;
     }
 
     .title-about {
         position: absolute;
         top: 34px;
-        left: 22px;
+        left: 49px;
         z-index: 2;
     }
 
+    .service-container {
+        width: 100%;
+        height: 100%;
+        padding-top: 102px;
+        padding-bottom: 0;
+        margin: 0 auto;
+    }
+
+    .service {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .service h2 {
-        position: absolute;
-        left: 12.5%;
-        font-size: 1.705rem;
-        line-height: 50px;
+        position: relative;
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+        margin-bottom: 0;
+        padding-left: 0;
+        left: 0;
+        font-size: 2.4rem;
         color: #fffeff;
         z-index: 3;
     }
 
     .service p {
+        position: relative;
         display: inline-block;
-        width: 100%;
-        position: absolute;
         left: 0;
-        padding-left: 50px;
-        font-size: 0.853rem;
+        padding-top: 6px;
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 1.4rem;
         font-family: YuGothic;
         color: #0056c0;
         z-index: 2;
     }
 
+    .design {
+        padding-bottom: 52px;
+        height: 33%;
+    }
 
+    .system {
+        padding-bottom: 52px;
+        height: 33%;
+    }
+
+    .hp {
+        height: 33%;
+    }
+
+    .member {
+        width: 100vw;
+        height: 515px;
+        margin: 0 auto;
+        z-index: 2;
+    }
+
+    .title-member {
+        position: absolute;
+        top: 593px;
+        left: 49px;
+        z-index: 2;
+    }
+
+    .member-img-top {
+        position: relative;
+        width: 265px;
+        height: 93px;
+        top: 0;
+        right: 0;
+        margin: 36px auto 0;
+    }
+    
+    .member-name-top{
+        position:relative;
+        margin:0 auto;
+    }
+
+    .member-name-top-jp-name {
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align:center;
+        font-family: YuGothic;
+        font-size: 2.4rem;
+        color: #0056c0;
+        z-index: 3;
+    }
+
+
+
+
+
+    /*図形*/
     .ro1 {
         position: absolute;
-        top: -47.8px;
-        left: -39.8px;
-        width: 122.79px;
-        height: 122.8px;
+        top: -80px;
+        left: -50px;
+        width: 178px;
+        height: 178px;
         border-radius: 50%;
         background-color: #0056c0;
         z-index: 1;
@@ -1179,9 +1257,9 @@ li {
     .ro2 {
         position: absolute;
         top: 12px;
-        left: 164px;
-        width: 30.97px;
-        height: 30.97px;
+        left: 215px;
+        width: 40.68px;
+        height: 40.69px;
         border-radius: 50%;
         background-color: #0056c0;
         z-index: 1;
@@ -1189,10 +1267,10 @@ li {
 
     .ro3 {
         position: absolute;
-        top: 55px;
-        left: 86px;
-        width: 49.4px;
-        height: 49.39px;
+        top: 73px;
+        left: 113px;
+        width: 64.84px;
+        height: 64.8px;
         border-radius: 50%;
         border: 2px solid #0056c0;
         z-index: 1;
@@ -1200,10 +1278,10 @@ li {
 
     .ro4 {
         position: absolute;
-        top: 93px;
-        left: 121px;
-        width: 37.26px;
-        height: 37.26px;
+        top: 124px;
+        left: 158px;
+        width: 48.93px;
+        height: 48.89px;
         border-radius: 50%;
         border: 0;
         background-color: #ff1a5b;
@@ -1212,20 +1290,20 @@ li {
 
     .ro5 {
         position: absolute;
-        top: 83px;
-        left: 286px;
-        width: 58.49px;
-        height: 58.49px;
+        top: 110px;
+        left: 375px;
+        width: 76.74px;
+        height: 76.78px;
         border-radius: 50%;
         background-color: #0056c0;
         z-index: 1;
     }
     .ro6 {
         position: absolute;
-        top: 126px;
-        left: 264px;
-        width: 80.69px;
-        height: 80.67px;
+        top: 167px;
+        left: 346px;
+        width: 105.9px;
+        height: 105.86px;
         border-radius: 50%;
         border: 2px solid #0056c0;
         background: none;
@@ -1234,13 +1312,95 @@ li {
 
     .ro7 {
         position: absolute;
-        top: 157px;
+        top: 208px;
         left: 0%;
-        width: 72.41px;
-        height: 72.4px;
+        right: 367px;
+        width: 84.41px;
+        height: 84.37px;
         border-radius: 50%;
         border: none;
         background-color: #ff1a5b;
         z-index: 1;
     }
+
+    .ro8 {
+        position: absolute;
+        top: 265px;
+        left: 16px;
+        width: 105.9px;
+        height: 105.86px;
+        border-radius: 50%;
+        border: 2px solid #ff1a5b;
+        background: none;
+        z-index: 2;
+    }
+
+    .ro9 {
+        position: absolute;
+        top: 278px;
+        left: 249px;
+        right: 137px;
+        width: 39.12px;
+        height: 39.13px;
+        border-radius: 50%;
+        background-color: #ff1a5b;
+        z-index: 1;
+    }
+
+    .ro10 {
+        position: absolute;
+        top: 333px;
+        left: 89px;
+        width: 39.86px;
+        height: 39.82px;
+        border-radius: 50%;
+        border: none;
+        background: #0056c0;
+        z-index: 1;
+    }
+
+    .ro11 {
+        position: absolute;
+        top: 391px;
+        left: 323px;
+        width: 26.04px;
+        height: 26.04px;
+        border-radius: 50%;
+        border: 2px solid #0056c0;
+        z-index: 1;
+    }
+
+    .ro12 {
+        position: absolute;
+        top: 453px;
+        left: 19px;
+        width: 59.02px;
+        height: 59.02px;
+        border-radius: 50%;
+        background-color: #0056c0;
+        z-index: 1;
+    }
+    .ro13 {
+        position: absolute;
+        top: 400px;
+        left: 112%;
+        width: 132.48px;
+        height: 132.49px;
+        border-radius: 50%;
+        background-color: #ff1a5b;
+        z-index: 1;
+    }
+
+    .ro14 {
+        position: absolute;
+        top: 473px;
+        left: 249px;
+        width: 65.78px;
+        height: 65.75px;
+        border-radius: 50%;
+        background-color: #ff1a5b;
+        z-index: 1;
+    }
+
+
 }

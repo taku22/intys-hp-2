@@ -1344,13 +1344,14 @@ p {
         position: absolute;
         top: 160px;
         left: 38.5vw;
+        margin:0 auto;
         text-align: center;
         font-family: YuGothic;
         font-size: 5.846rem;
         color: #0056c0;
         z-index: 3;
     }
-
+    
     .member-name-top-alphabet-name {
         position: absolute;
         top: 220px;
@@ -1549,7 +1550,7 @@ p {
         margin: 0 auto;
         text-align: center;
         background: #fff;
-        border: 2px solid #0056c0;
+        border: 1px solid #0056c0;
         border-radius: 15.83px 15.83px 15.83px 15.83px;
     }
 
@@ -1563,7 +1564,7 @@ p {
 
     .button-hover {
         background: #0056c0;
-        border: 2px solid #fff;
+        border: 1px solid #fff;
     }
 
     .button-hover a {

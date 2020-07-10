@@ -1,3 +1,5 @@
+export default $(function(){
+
 const menu                = document.getElementById('menu');
 const navigationContainer = document.getElementById('navigation-container');
 const arrow               = document.getElementById('arrow');
@@ -10,4 +12,6 @@ menu.addEventListener('click',function(){
     arrow.classList.toggle('dis-arrow');
     arrowIsOpened.classList.toggle('dis-arrow');
     menuList.classList.toggle('dis-menu-list');
-})
+    })
+}
+)

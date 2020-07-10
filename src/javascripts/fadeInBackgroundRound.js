@@ -1,4 +1,4 @@
-$(function() {
+export default $(function() {
     var nowScrollY;
     var screenWidth = $(window).width();
 

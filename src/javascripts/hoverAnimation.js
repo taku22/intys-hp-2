@@ -1,4 +1,4 @@
-$("#button").hover(
+ export default $("#button").hover(
     function() {
         $(this).addClass("button-hover");
     },

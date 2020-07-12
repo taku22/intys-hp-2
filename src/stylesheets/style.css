@@ -15,9 +15,7 @@ p {
 }
 
 @font-face {
-    /*フォントの名前*/
     font-family: "PaneuropaRetroSoft-DemiBold";
-    /*フォントファイルへのパス（複数指定の場合、上から順に読み込まれる）*/
     src: url("/assets/PaneuropaRetroSoft-DemiBold.woff") format("woff"),
 }
 

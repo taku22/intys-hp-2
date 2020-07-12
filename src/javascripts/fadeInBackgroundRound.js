@@ -1,6 +1,7 @@
 export default $(function() {
     var nowScrollY;
     var screenWidth = $(window).width();
+    console.log('a');
 
     $(window).scroll(function() {
         nowScrollY = $(this).scrollTop();
@@ -39,7 +40,6 @@ export default $(function() {
         }
         else if (nowScrollY > section01) {
             $('.ro-group01').addClass("appear-ro");
-
         }
     }
 
